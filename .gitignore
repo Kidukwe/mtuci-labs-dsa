@@ -1,0 +1,30 @@
+# Операционные системы / редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Временные файлы офисных приложений
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# Локальный отчёт проверки репозитория
+validation-report.txt
+
+# Локально генерируемые данные (чтобы не пушить мегабайты чисел)
+data/generated/
+
+# Исходный репозиторий кафедры (лежит локально)
+data-structures-and-algorithms/
