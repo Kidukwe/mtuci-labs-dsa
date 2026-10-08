@@ -1,0 +1,48 @@
+Данные варианта 9 (seed=39) из /Users/kirill/Jupyter/02_projects/mtuci-algorithms-data-structures/data/generated
+self_check:
+  рекурсия: OK
+  DynamicArray: OK
+  Stack: OK
+  Deque: OK
+  собственные инварианты: OK
+  операции варианта: OK
+self_check: OK
+
+Число вызовов: наивная рекурсия против мемоизации
+  n= 5  F(n)=     5  fib_naive:      15 вызовов  fib_memo:  9 вызовов
+  n=10  F(n)=    55  fib_naive:     177 вызовов  fib_memo: 19 вызовов
+  n=15  F(n)=   610  fib_naive:    1973 вызовов  fib_memo: 29 вызовов
+  n=20  F(n)=  6765  fib_naive:   21891 вызовов  fib_memo: 39 вызовов
+  n=25  F(n)= 75025  fib_naive:  242785 вызовов  fib_memo: 49 вызовов
+  n=30  F(n)=832040  fib_naive: 2692537 вызовов  fib_memo: 59 вызовов
+
+Серии append на размерах варианта:
+  n=   1893  t/n: DynamicArray 1.11e-07 c, list 1.40e-08 c  копирований    2044  (n + копирования)/n = 2.080
+  n=   3280  t/n: DynamicArray 1.16e-07 c, list 1.43e-08 c  копирований    4092  (n + копирования)/n = 2.248
+  n=   3787  t/n: DynamicArray 1.13e-07 c, list 1.43e-08 c  копирований    4092  (n + копирования)/n = 2.081
+  n=  13522  t/n: DynamicArray 1.17e-07 c, list 1.40e-08 c  копирований   16380  (n + копирования)/n = 2.211
+  n=  14251  t/n: DynamicArray 1.14e-07 c, list 1.43e-08 c  копирований   16380  (n + копирования)/n = 2.149
+  n=  48905  t/n: DynamicArray 1.19e-07 c, list 1.41e-08 c  копирований   65532  (n + копирования)/n = 2.340
+  n=  65536  t/n: DynamicArray 1.11e-07 c, list 1.52e-08 c  копирований   65532  (n + копирования)/n = 2.000
+  n=  65537  t/n: DynamicArray 1.39e-07 c, list 1.46e-08 c  копирований  131068  (n + копирования)/n = 3.000
+  n=  93279  t/n: DynamicArray 1.24e-07 c, list 1.51e-08 c  копирований  131068  (n + копирования)/n = 2.405
+  n= 106403  t/n: DynamicArray 1.20e-07 c, list 1.49e-08 c  копирований  131068  (n + копирования)/n = 2.232
+
+Вставка в начало: время одной пары операций при размере n = 1000, 3000, 10000, 30000, 100000
+  list.insert(0, x) + pop()    2.62e-07  7.31e-07  2.35e-06  7.10e-06  2.31e-05   наклон 0.98
+  deque.appendleft + pop       2.00e-08  2.05e-08  2.13e-08  2.11e-08  2.08e-08   наклон 0.01
+  Deque.push_front + pop_back  3.16e-07  3.13e-07  3.18e-07  3.18e-07  3.15e-07   наклон 0.00
+
+Удаление из начала: время одной пары операций при размере n = 1000, 3000, 10000, 30000, 100000
+  list.append + pop(0)         9.55e-08  2.36e-07  7.51e-07  3.42e-06  1.13e-05   наклон 1.06
+  deque.append + popleft       1.96e-08  2.00e-08  2.06e-08  2.06e-08  2.04e-08   наклон 0.01
+  Deque.push_back + pop_front  3.03e-07  3.17e-07  3.15e-07  3.13e-07  3.15e-07   наклон 0.01
+
+Операции варианта целиком: время на операцию
+  ops_stack.txt: Stack 1.57e-07 c, list 2.95e-08 c — в 5.3 раза медленнее
+  ops_deque.txt: Deque 1.83e-07 c, collections.deque 3.19e-08 c — в 5.7 раза медленнее
+
+Графики сохранены:
+  /Users/kirill/Jupyter/02_projects/mtuci-algorithms-data-structures/lab02/reports/lab02_append.png
+  /Users/kirill/Jupyter/02_projects/mtuci-algorithms-data-structures/lab02/reports/lab02_front.png
+Результаты сохранены: /Users/kirill/Jupyter/02_projects/mtuci-algorithms-data-structures/lab02/reports/results.json
