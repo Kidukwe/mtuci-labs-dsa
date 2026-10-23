@@ -1,0 +1,1111 @@
+{
+  "benchmarks": [
+    {
+      "algorithm": "bubble_sort",
+      "n": 500,
+      "input_class": "упорядоченный",
+      "median_seconds": 4.07920015277341e-05,
+      "samples_seconds": [
+        4.4583000999409705e-05,
+        4.037500184495002e-05,
+        3.962499613407999e-05,
+        5.583299935096875e-05,
+        4.07920015277341e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 499,
+      "movements": 0
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 500,
+      "input_class": "случайный",
+      "median_seconds": 0.012939125001139473,
+      "samples_seconds": [
+        0.01911991700035287,
+        0.01294699999561999,
+        0.012849457998527214,
+        0.012939125001139473,
+        0.012778000003891066
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 124744,
+      "movements": 57627
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 500,
+      "input_class": "обратный",
+      "median_seconds": 0.01590008399944054,
+      "samples_seconds": [
+        0.01594150000164518,
+        0.01590008399944054,
+        0.01588916699984111,
+        0.015977999995811842,
+        0.015832332996069454
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 124750,
+      "movements": 124750
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 1000,
+      "input_class": "упорядоченный",
+      "median_seconds": 8.462499681627378e-05,
+      "samples_seconds": [
+        7.88750039646402e-05,
+        8.462499681627378e-05,
+        9.241700172424316e-05,
+        8.641699969302863e-05,
+        7.950000144774094e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 999,
+      "movements": 0
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 1000,
+      "input_class": "случайный",
+      "median_seconds": 0.05332358300074702,
+      "samples_seconds": [
+        0.05332358300074702,
+        0.05303362500126241,
+        0.05329212499782443,
+        0.05336604100011755,
+        0.0536454169996432
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 497609,
+      "movements": 248230
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 1000,
+      "input_class": "обратный",
+      "median_seconds": 0.06621670800086576,
+      "samples_seconds": [
+        0.06843799999478506,
+        0.06696204200125067,
+        0.06621670800086576,
+        0.06552420799562242,
+        0.0650907079980243
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 499500,
+      "movements": 499500
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 2000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.00016558400238864124,
+      "samples_seconds": [
+        0.00016991599841276184,
+        0.0001620419934624806,
+        0.0001642499992158264,
+        0.00016729100025258958,
+        0.00016558400238864124
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 1999,
+      "movements": 0
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 2000,
+      "input_class": "случайный",
+      "median_seconds": 0.22616929200012237,
+      "samples_seconds": [
+        0.2261737910012016,
+        0.22616929200012237,
+        0.2271046669993666,
+        0.2260266250013956,
+        0.22598262500105193
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 1996722,
+      "movements": 1036979
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 2000,
+      "input_class": "обратный",
+      "median_seconds": 0.2660011670013773,
+      "samples_seconds": [
+        0.2654237919996376,
+        0.266086333002022,
+        0.26570016700134147,
+        0.2664127499956521,
+        0.2660011670013773
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 1999000,
+      "movements": 1999000
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 4000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.00033999999868683517,
+      "samples_seconds": [
+        0.00033900000562425703,
+        0.0003423749949433841,
+        0.00033999999868683517,
+        0.0003431669974816032,
+        0.0003317499940749258
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 3999,
+      "movements": 0
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 4000,
+      "input_class": "случайный",
+      "median_seconds": 0.8863304170008632,
+      "samples_seconds": [
+        0.9224347909985227,
+        0.9007864999948652,
+        0.8859749170005671,
+        0.8829849579997244,
+        0.8863304170008632
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 7996872,
+      "movements": 4055274
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 4000,
+      "input_class": "обратный",
+      "median_seconds": 1.1046349999960512,
+      "samples_seconds": [
+        1.1046349999960512,
+        1.1122990419971757,
+        1.0971247499983292,
+        1.1751081660040654,
+        1.0983703329984564
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 7998000,
+      "movements": 7997996
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 8000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.0006795419976697303,
+      "samples_seconds": [
+        0.0006795000008423813,
+        0.0006909590010764077,
+        0.0006632080039707944,
+        0.0006880000000819564,
+        0.0006795419976697303
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 7999,
+      "movements": 0
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 8000,
+      "input_class": "случайный",
+      "median_seconds": 3.5446761250059353,
+      "samples_seconds": [
+        3.5424059159995522,
+        3.5393180000028224,
+        3.5776719999994384,
+        3.5446761250059353,
+        3.561087292000593
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 31995139,
+      "movements": 15762007
+    },
+    {
+      "algorithm": "bubble_sort",
+      "n": 8000,
+      "input_class": "обратный",
+      "median_seconds": 4.534099415999663,
+      "samples_seconds": [
+        4.550611750004464,
+        4.534024708998913,
+        4.535043207994022,
+        4.534099415999663,
+        4.533919583001989
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 31996000,
+      "movements": 31995984
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 500,
+      "input_class": "упорядоченный",
+      "median_seconds": 5.999999848427251e-05,
+      "samples_seconds": [
+        8.800000068731606e-05,
+        5.999999848427251e-05,
+        6.616699829464778e-05,
+        5.979200068395585e-05,
+        5.6750002840999514e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 499,
+      "movements": 499
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 500,
+      "input_class": "случайный",
+      "median_seconds": 0.00678666599560529,
+      "samples_seconds": [
+        0.006809457998315338,
+        0.006743999998434447,
+        0.006869707998703234,
+        0.00678666599560529,
+        0.006717457996273879
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 58119,
+      "movements": 58126
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 500,
+      "input_class": "обратный",
+      "median_seconds": 0.014189125002303626,
+      "samples_seconds": [
+        0.014232583002012689,
+        0.01412733400502475,
+        0.014311874998384155,
+        0.01411487499717623,
+        0.014189125002303626
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 124750,
+      "movements": 125249
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 1000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.00011054200149374083,
+      "samples_seconds": [
+        0.00011241599713684991,
+        0.00010983299580402672,
+        0.00011016699863830581,
+        0.00011054200149374083,
+        0.00011166699550813064
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 999,
+      "movements": 999
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 1000,
+      "input_class": "случайный",
+      "median_seconds": 0.029557000001659617,
+      "samples_seconds": [
+        0.029659708998224232,
+        0.02949708300002385,
+        0.029557000001659617,
+        0.029690792005567346,
+        0.029509125000913627
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 249222,
+      "movements": 249229
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 1000,
+      "input_class": "обратный",
+      "median_seconds": 0.058148832998995204,
+      "samples_seconds": [
+        0.05798316699656425,
+        0.05810458299674792,
+        0.05818900000303984,
+        0.05820491699705599,
+        0.058148832998995204
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 499500,
+      "movements": 500499
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 2000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.00022591600281884894,
+      "samples_seconds": [
+        0.00022591600281884894,
+        0.00022704100410919636,
+        0.00022237499797483906,
+        0.00022491599520435557,
+        0.00022699999681208283
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 1999,
+      "movements": 1999
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 2000,
+      "input_class": "случайный",
+      "median_seconds": 0.12759208399802446,
+      "samples_seconds": [
+        0.12759208399802446,
+        0.12844462499924703,
+        0.12849183400248876,
+        0.1268179170001531,
+        0.126491791997978
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 1038973,
+      "movements": 1038978
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 2000,
+      "input_class": "обратный",
+      "median_seconds": 0.2374568749946775,
+      "samples_seconds": [
+        0.2382074589986587,
+        0.23749716699967394,
+        0.2372367919961107,
+        0.2374568749946775,
+        0.23714699999982258
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 1999000,
+      "movements": 2000999
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 4000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.00046237500646384433,
+      "samples_seconds": [
+        0.00046350000047823414,
+        0.00046175000170478597,
+        0.00045820800005458295,
+        0.00046237500646384433,
+        0.00046275000204332173
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 3999,
+      "movements": 3999
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 4000,
+      "input_class": "случайный",
+      "median_seconds": 0.5055562080015079,
+      "samples_seconds": [
+        0.4937419999987469,
+        0.5084004579985049,
+        0.5055562080015079,
+        0.49327208300383063,
+        0.5361599589959951
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 4059260,
+      "movements": 4059273
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 4000,
+      "input_class": "обратный",
+      "median_seconds": 0.9678888330017799,
+      "samples_seconds": [
+        1.0028303330036579,
+        0.9753744580011698,
+        0.9664777080033673,
+        0.9678888330017799,
+        0.967282833000354
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 7998000,
+      "movements": 8001995
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 8000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.0009358329989481717,
+      "samples_seconds": [
+        0.0009358329989481717,
+        0.0009319999953731894,
+        0.0009358329989481717,
+        0.0009355000001960434,
+        0.0009580420010024682
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 7999,
+      "movements": 7999
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 8000,
+      "input_class": "случайный",
+      "median_seconds": 1.94304933300009,
+      "samples_seconds": [
+        1.9719329169965931,
+        1.94304933300009,
+        1.9705052909994265,
+        1.9315764159982791,
+        1.9393876250032918
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 15770000,
+      "movements": 15770006
+    },
+    {
+      "algorithm": "insertion_sort",
+      "n": 8000,
+      "input_class": "обратный",
+      "median_seconds": 3.933184292000078,
+      "samples_seconds": [
+        3.933184292000078,
+        3.925990333998925,
+        3.9287043749936856,
+        4.082685999994283,
+        4.036647791006544
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 31996000,
+      "movements": 32003983
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 500,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.009777332998055499,
+      "samples_seconds": [
+        0.009699208996607922,
+        0.009827417001361027,
+        0.009777332998055499,
+        0.009811249998165295,
+        0.009763374997419305
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 124750,
+      "movements": 0
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 500,
+      "input_class": "случайный",
+      "median_seconds": 0.009714208004879765,
+      "samples_seconds": [
+        0.009819375001825392,
+        0.009737999993376434,
+        0.009702874995127786,
+        0.009714208004879765,
+        0.00968500000453787
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 124750,
+      "movements": 497
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 500,
+      "input_class": "обратный",
+      "median_seconds": 0.009805041998333763,
+      "samples_seconds": [
+        0.009835500000917818,
+        0.009798916995350737,
+        0.00981425000645686,
+        0.009805041998333763,
+        0.009793457997147925
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 124750,
+      "movements": 250
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 1000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.038007415998436045,
+      "samples_seconds": [
+        0.038007415998436045,
+        0.03811616700113518,
+        0.03796779199910816,
+        0.038011625001672655,
+        0.03780387500592042
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 499500,
+      "movements": 0
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 1000,
+      "input_class": "случайный",
+      "median_seconds": 0.03837062499951571,
+      "samples_seconds": [
+        0.03830170800210908,
+        0.038439042000391055,
+        0.03837062499951571,
+        0.038392916998418514,
+        0.038342207997629885
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 499500,
+      "movements": 994
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 1000,
+      "input_class": "обратный",
+      "median_seconds": 0.03882675000204472,
+      "samples_seconds": [
+        0.038819499997771345,
+        0.03882675000204472,
+        0.03880358300375519,
+        0.03885308300232282,
+        0.03884354200272355
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 499500,
+      "movements": 500
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 2000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.155099458002951,
+      "samples_seconds": [
+        0.15534345799824223,
+        0.155099458002951,
+        0.15521820899448358,
+        0.15443066599982558,
+        0.1538594580051722
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 1999000,
+      "movements": 0
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 2000,
+      "input_class": "случайный",
+      "median_seconds": 0.15333166700293077,
+      "samples_seconds": [
+        0.15333166700293077,
+        0.15401287500571925,
+        0.15378891599539202,
+        0.15260200000193436,
+        0.1524062500029686
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 1999000,
+      "movements": 1993
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 2000,
+      "input_class": "обратный",
+      "median_seconds": 0.15521629100112477,
+      "samples_seconds": [
+        0.1549355419992935,
+        0.15606845900038024,
+        0.15612070899805985,
+        0.15521629100112477,
+        0.1550965409987839
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 1999000,
+      "movements": 1000
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 4000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.6163102080026874,
+      "samples_seconds": [
+        0.6141605420052656,
+        0.6197682499987422,
+        0.6109784579966799,
+        0.6163102080026874,
+        0.6169667919966741
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 7998000,
+      "movements": 0
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 4000,
+      "input_class": "случайный",
+      "median_seconds": 0.6131502919961349,
+      "samples_seconds": [
+        0.6131502919961349,
+        0.6120517919989652,
+        0.6123077919983189,
+        0.6183240840036888,
+        0.6187137910019374
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 7998000,
+      "movements": 3996
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 4000,
+      "input_class": "обратный",
+      "median_seconds": 0.630558042001212,
+      "samples_seconds": [
+        0.630558042001212,
+        0.627381583006354,
+        0.6392977920040721,
+        0.6297640830016462,
+        0.6443715829955181
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 7998000,
+      "movements": 2003
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 8000,
+      "input_class": "упорядоченный",
+      "median_seconds": 2.4709347909956705,
+      "samples_seconds": [
+        2.4684780000025057,
+        2.4709347909956705,
+        2.837951082998188,
+        2.5222832090003067,
+        2.4700520420010434
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 31996000,
+      "movements": 0
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 8000,
+      "input_class": "случайный",
+      "median_seconds": 2.5526361250012997,
+      "samples_seconds": [
+        2.4927726249952684,
+        2.5267294160003075,
+        2.5526361250012997,
+        2.6301977500042995,
+        2.5767351659960696
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 31996000,
+      "movements": 7988
+    },
+    {
+      "algorithm": "selection_sort",
+      "n": 8000,
+      "input_class": "обратный",
+      "median_seconds": 2.6754477080030483,
+      "samples_seconds": [
+        2.6663480829956825,
+        2.7254779169961694,
+        2.66769020799984,
+        2.6809127500018803,
+        2.6754477080030483
+      ],
+      "power_source": "Now drawing from 'AC Power'",
+      "comparisons": 31996000,
+      "movements": 4008
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 1000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.0014592080042348243,
+      "samples_seconds": [
+        0.0014630830046371557,
+        0.0014717079975525849,
+        0.0014525829974445514,
+        0.0014592080042348243,
+        0.0014449579975917004
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 1000,
+      "input_class": "случайный",
+      "median_seconds": 0.001476583995099645,
+      "samples_seconds": [
+        0.001476583995099645,
+        0.001472957999794744,
+        0.0016297920010401867,
+        0.0014832079978077672,
+        0.001466459005314391
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 1000,
+      "input_class": "обратный",
+      "median_seconds": 0.0014007499994477257,
+      "samples_seconds": [
+        0.001400542001647409,
+        0.0014007499994477257,
+        0.0014570419953088276,
+        0.0014775419986108318,
+        0.001392541998939123
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 3000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.004796499997610226,
+      "samples_seconds": [
+        0.004946000000927597,
+        0.004797916000825353,
+        0.004796499997610226,
+        0.0046975000004749745,
+        0.004727624997030944
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 3000,
+      "input_class": "случайный",
+      "median_seconds": 0.005012375004298519,
+      "samples_seconds": [
+        0.005069500002718996,
+        0.005000666998967063,
+        0.005012957997678313,
+        0.005012375004298519,
+        0.004985334002412856
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 3000,
+      "input_class": "обратный",
+      "median_seconds": 0.004583250003634021,
+      "samples_seconds": [
+        0.0046211250009946525,
+        0.004700750003394205,
+        0.004583250003634021,
+        0.004582207999192178,
+        0.004567541996948421
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 10000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.017836083003203385,
+      "samples_seconds": [
+        0.01771445899794344,
+        0.017836083003203385,
+        0.017461584000557195,
+        0.018985833004990127,
+        0.018444207998982165
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 10000,
+      "input_class": "случайный",
+      "median_seconds": 0.018615250002767425,
+      "samples_seconds": [
+        0.018530334004026372,
+        0.018371042002399918,
+        0.019171833999280352,
+        0.018615250002767425,
+        0.01881975000287639
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 10000,
+      "input_class": "обратный",
+      "median_seconds": 0.01855437499762047,
+      "samples_seconds": [
+        0.01855437499762047,
+        0.018775666001602076,
+        0.01861116699728882,
+        0.01828854199993657,
+        0.01783387499745004
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 30000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.06405058300151723,
+      "samples_seconds": [
+        0.06405058300151723,
+        0.06540258300083224,
+        0.06548841699986951,
+        0.06316883299587062,
+        0.061101041006622836
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 30000,
+      "input_class": "случайный",
+      "median_seconds": 0.06337566599540878,
+      "samples_seconds": [
+        0.06364662499981932,
+        0.06337566599540878,
+        0.062382957999943756,
+        0.063370166993991,
+        0.06444175000069663
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 30000,
+      "input_class": "обратный",
+      "median_seconds": 0.06267954199574888,
+      "samples_seconds": [
+        0.06267954199574888,
+        0.06415254199964693,
+        0.06377408300613752,
+        0.0618132500021602,
+        0.06252445800055284
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 100000,
+      "input_class": "упорядоченный",
+      "median_seconds": 0.2373267910006689,
+      "samples_seconds": [
+        0.24104195799736772,
+        0.23700133400416235,
+        0.23473487499722978,
+        0.2373267910006689,
+        0.2531837499991525
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 100000,
+      "input_class": "случайный",
+      "median_seconds": 0.24529549999715528,
+      "samples_seconds": [
+        0.240246000001207,
+        0.2618455840056413,
+        0.2538420419950853,
+        0.24529549999715528,
+        0.242650499996671
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "algorithm": "quick_sort",
+      "n": 100000,
+      "input_class": "обратный",
+      "median_seconds": 0.23756000000139466,
+      "samples_seconds": [
+        0.24984037499962142,
+        0.2387683749984717,
+        0.23756000000139466,
+        0.23717974999453872,
+        0.23623391600267496
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    }
+  ],
+  "slopes": {
+    "bubble_sort": {
+      "упорядоченный": 1.0122787989806616,
+      "случайный": 2.0250538887055765,
+      "обратный": 2.037150630004294
+    },
+    "insertion_sort": {
+      "упорядоченный": 0.9990902239736482,
+      "случайный": 2.04191073551166,
+      "обратный": 2.028655591334926
+    },
+    "selection_sort": {
+      "упорядоченный": 1.9982104303967452,
+      "случайный": 2.0073518181953127,
+      "обратный": 2.0205587930751703
+    },
+    "quick_sort": {
+      "упорядоченный": 1.1095509217977535,
+      "случайный": 1.1085475639693971,
+      "обратный": 1.1190518882502545
+    }
+  },
+  "input_sha256": {
+    "500": "0b41309a7b6f1dcc1b9f4b1df2aee1f3a3af6c47356083126f6f930bc9ca00fb",
+    "1000": "d4b30c4ff8280b9c884be0ca9025d3d2adfbb6dedcdface9cb204f42f940f6e4",
+    "2000": "0e02be717457487bbda74ddb363b9f9fd18fe29223ff1f0377594d92a27a84cc",
+    "3000": "56e08448f441dcc5846a5b1961ce80d4f2472cab5defd226a6101243c31a6934",
+    "4000": "2497b268ff87fbfe5269633f25e7b4898bb3d29d249d6e3be9764603442f0b15",
+    "8000": "55c0c3dd56bcf0e6455ba4846b4849e2eb183391e3ed7440b0f6475e3854b6a8",
+    "10000": "862e23015924673ac71dde6a0041e633b98f60fa3c848f482e9a60ce5d0d6899",
+    "30000": "00b1e853171843de125c88897fd955c59a08f4611048a0ad8e588e94351de3ee",
+    "100000": "0936ee3a5317afa370d50c5bc9e3b9be28de907c0d4cf1d2772faa446ff6d881"
+  },
+  "stability": [
+    {
+      "algorithm": "bubble_sort",
+      "input": [
+        [
+          2,
+          "a"
+        ],
+        [
+          2,
+          "b"
+        ],
+        [
+          1,
+          "c"
+        ]
+      ],
+      "result": [
+        [
+          1,
+          "c"
+        ],
+        [
+          2,
+          "a"
+        ],
+        [
+          2,
+          "b"
+        ]
+      ],
+      "stable_on_example": true
+    },
+    {
+      "algorithm": "insertion_sort",
+      "input": [
+        [
+          2,
+          "a"
+        ],
+        [
+          2,
+          "b"
+        ],
+        [
+          1,
+          "c"
+        ]
+      ],
+      "result": [
+        [
+          1,
+          "c"
+        ],
+        [
+          2,
+          "a"
+        ],
+        [
+          2,
+          "b"
+        ]
+      ],
+      "stable_on_example": true
+    },
+    {
+      "algorithm": "selection_sort",
+      "input": [
+        [
+          2,
+          "a"
+        ],
+        [
+          2,
+          "b"
+        ],
+        [
+          1,
+          "c"
+        ]
+      ],
+      "result": [
+        [
+          1,
+          "c"
+        ],
+        [
+          2,
+          "b"
+        ],
+        [
+          2,
+          "a"
+        ]
+      ],
+      "stable_on_example": false
+    },
+    {
+      "algorithm": "quick_sort",
+      "input": [
+        [
+          2,
+          "a"
+        ],
+        [
+          2,
+          "b"
+        ],
+        [
+          1,
+          "c"
+        ]
+      ],
+      "result": [
+        [
+          1,
+          "c"
+        ],
+        [
+          2,
+          "b"
+        ],
+        [
+          2,
+          "a"
+        ]
+      ],
+      "stable_on_example": false
+    }
+  ],
+  "metadata": {
+    "variant": 9,
+    "seed": 39,
+    "measured_at_utc": "2026-10-23T06:03:47.548579+00:00",
+    "python": "3.10.7",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "cpu": "Apple M5",
+    "power_before": "Now drawing from 'AC Power'",
+    "power_after": "Now drawing from 'AC Power'",
+    "repeats": 5,
+    "warmup": 1,
+    "source_sha256": "3e4362f4f3915c29cf9afa26fab74211b6c258580f39733298d48f326523c78b",
+    "generator": "random.Random(seed + n), randint(-1000000, 1000000)"
+  }
+}
