@@ -12,3 +12,5 @@
   * [README — отчёт, результаты и порядок разбора](lab02/README.md)
 * [Лабораторная работа 3: Простые сортировки и QuickSort](lab03/)
   * [README — отчёт, результаты и порядок разбора](lab03/README.md)
+* [Лабораторная работа 4: MergeSort, CountingSort, RadixSort и HeapSort](lab04/)
+  * [README — отчёт, таблица свойств и графики](lab04/README.md)

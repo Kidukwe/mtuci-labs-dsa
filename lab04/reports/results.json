@@ -1,0 +1,2418 @@
+{
+  "benchmarks": [
+    {
+      "n": 1000,
+      "distribution": "random_wide",
+      "algorithm": "merge_sort",
+      "input_sha256": "032f8cbe8dfd527cd9f34852cdce933427ef3e28cdcb07a501aa232fcb5ad88a",
+      "skipped": false,
+      "median_seconds": 0.00140770900179632,
+      "samples_seconds": [
+        0.00140770900179632,
+        0.0014110839983914047,
+        0.0014002919997437857,
+        0.0014346250027301721,
+        0.0013797499996144325
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_wide",
+      "algorithm": "counting_sort",
+      "input_sha256": "032f8cbe8dfd527cd9f34852cdce933427ef3e28cdcb07a501aa232fcb5ad88a",
+      "skipped": true,
+      "reason": "диапазон ключей до 10**9"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_wide",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "032f8cbe8dfd527cd9f34852cdce933427ef3e28cdcb07a501aa232fcb5ad88a",
+      "skipped": false,
+      "median_seconds": 0.0010247079990222119,
+      "samples_seconds": [
+        0.0010247500031255186,
+        0.0010247079990222119,
+        0.0010173339978791773,
+        0.0010238329996354878,
+        0.001060749993484933
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_wide",
+      "algorithm": "heap_sort",
+      "input_sha256": "032f8cbe8dfd527cd9f34852cdce933427ef3e28cdcb07a501aa232fcb5ad88a",
+      "skipped": false,
+      "median_seconds": 0.001142332999734208,
+      "samples_seconds": [
+        0.0011291670016362332,
+        0.001142332999734208,
+        0.0011349160049576312,
+        0.0011448330042185262,
+        0.0011483749985927716
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_wide",
+      "algorithm": "quick_sort",
+      "input_sha256": "032f8cbe8dfd527cd9f34852cdce933427ef3e28cdcb07a501aa232fcb5ad88a",
+      "skipped": false,
+      "median_seconds": 0.0010676669990061782,
+      "samples_seconds": [
+        0.001061875002051238,
+        0.0010564999975031242,
+        0.0010676669990061782,
+        0.001119334003305994,
+        0.0011026669963030145
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_wide",
+      "algorithm": "sorted",
+      "input_sha256": "032f8cbe8dfd527cd9f34852cdce933427ef3e28cdcb07a501aa232fcb5ad88a",
+      "skipped": false,
+      "median_seconds": 2.5875000574160367e-05,
+      "samples_seconds": [
+        2.8624999686144292e-05,
+        2.658400626387447e-05,
+        2.5875000574160367e-05,
+        2.554199454607442e-05,
+        2.5250003091059625e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_small",
+      "algorithm": "merge_sort",
+      "input_sha256": "d40e8ccb25d983ef9a77afc13e84a7726270ef6ef6ad85d9fe3169f89b7be184",
+      "skipped": false,
+      "median_seconds": 0.001393750004353933,
+      "samples_seconds": [
+        0.0013892919960198924,
+        0.001393750004353933,
+        0.0013950830034445971,
+        0.0013959589996375144,
+        0.0013917910036980174
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_small",
+      "algorithm": "counting_sort",
+      "input_sha256": "d40e8ccb25d983ef9a77afc13e84a7726270ef6ef6ad85d9fe3169f89b7be184",
+      "skipped": false,
+      "median_seconds": 7.658300455659628e-05,
+      "samples_seconds": [
+        7.658300455659628e-05,
+        7.491599535569549e-05,
+        8.08749973657541e-05,
+        7.516700134146959e-05,
+        8.662499749334529e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_small",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "d40e8ccb25d983ef9a77afc13e84a7726270ef6ef6ad85d9fe3169f89b7be184",
+      "skipped": false,
+      "median_seconds": 0.00035083300463156775,
+      "samples_seconds": [
+        0.0003451669981586747,
+        0.00035083300463156775,
+        0.0003462919994490221,
+        0.0003614169982029125,
+        0.0003542080012266524
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_small",
+      "algorithm": "heap_sort",
+      "input_sha256": "d40e8ccb25d983ef9a77afc13e84a7726270ef6ef6ad85d9fe3169f89b7be184",
+      "skipped": false,
+      "median_seconds": 0.001123000001825858,
+      "samples_seconds": [
+        0.0011130829952890053,
+        0.0011182499947608449,
+        0.0011242079999647103,
+        0.0011407089987187646,
+        0.001123000001825858
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_small",
+      "algorithm": "quick_sort",
+      "input_sha256": "d40e8ccb25d983ef9a77afc13e84a7726270ef6ef6ad85d9fe3169f89b7be184",
+      "skipped": false,
+      "median_seconds": 0.0005149170028744265,
+      "samples_seconds": [
+        0.000585750000027474,
+        0.0005035830035922118,
+        0.0005149170028744265,
+        0.0004896669997833669,
+        0.0006097500008763745
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "random_small",
+      "algorithm": "sorted",
+      "input_sha256": "d40e8ccb25d983ef9a77afc13e84a7726270ef6ef6ad85d9fe3169f89b7be184",
+      "skipped": false,
+      "median_seconds": 2.391599991824478e-05,
+      "samples_seconds": [
+        2.579099964350462e-05,
+        2.445800055284053e-05,
+        2.391599991824478e-05,
+        2.3207998310681432e-05,
+        2.337499608984217e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "sorted",
+      "algorithm": "merge_sort",
+      "input_sha256": "b1c32e2197c96b83093960b247b9a8eac730c9527f14fa7691c116b77d679a63",
+      "skipped": false,
+      "median_seconds": 0.0010615830033202656,
+      "samples_seconds": [
+        0.0010530830040806904,
+        0.001065042000846006,
+        0.0010606659998302348,
+        0.0010652499986463226,
+        0.0010615830033202656
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "sorted",
+      "algorithm": "counting_sort",
+      "input_sha256": "b1c32e2197c96b83093960b247b9a8eac730c9527f14fa7691c116b77d679a63",
+      "skipped": false,
+      "median_seconds": 0.00011020799865946174,
+      "samples_seconds": [
+        0.00011100000119768083,
+        0.00011158399865962565,
+        0.00011020799865946174,
+        0.00010858300083782524,
+        0.00011016600183211267
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "sorted",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "b1c32e2197c96b83093960b247b9a8eac730c9527f14fa7691c116b77d679a63",
+      "skipped": false,
+      "median_seconds": 0.00034333299845457077,
+      "samples_seconds": [
+        0.00034620799851836637,
+        0.00033837500086519867,
+        0.00034333299845457077,
+        0.00034270800097147003,
+        0.0003465839981799945
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "sorted",
+      "algorithm": "heap_sort",
+      "input_sha256": "b1c32e2197c96b83093960b247b9a8eac730c9527f14fa7691c116b77d679a63",
+      "skipped": false,
+      "median_seconds": 0.001186832996609155,
+      "samples_seconds": [
+        0.001182790998427663,
+        0.0011807920018327422,
+        0.001186832996609155,
+        0.0011888749941135757,
+        0.0011984160009888
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "sorted",
+      "algorithm": "quick_sort",
+      "input_sha256": "b1c32e2197c96b83093960b247b9a8eac730c9527f14fa7691c116b77d679a63",
+      "skipped": false,
+      "median_seconds": 0.001024666999001056,
+      "samples_seconds": [
+        0.001024666999001056,
+        0.0010237499955110252,
+        0.0010920420027105138,
+        0.0010289579950040206,
+        0.0010042079957202077
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "sorted",
+      "algorithm": "sorted",
+      "input_sha256": "b1c32e2197c96b83093960b247b9a8eac730c9527f14fa7691c116b77d679a63",
+      "skipped": false,
+      "median_seconds": 1.7920028767548501e-06,
+      "samples_seconds": [
+        1.8339997041039169e-06,
+        1.8749997252598405e-06,
+        1.7920028767548501e-06,
+        1.7920028767548501e-06,
+        1.7499987734481692e-06
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "reversed",
+      "algorithm": "merge_sort",
+      "input_sha256": "0c0df6316d6322ee42de7b64328e7ca2c763f10cc620042879f3796a6420c04d",
+      "skipped": false,
+      "median_seconds": 0.0010832089974428527,
+      "samples_seconds": [
+        0.0010697499965317547,
+        0.0010832089974428527,
+        0.0010796250062412582,
+        0.0010842909978237003,
+        0.0010865000003832392
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "reversed",
+      "algorithm": "counting_sort",
+      "input_sha256": "0c0df6316d6322ee42de7b64328e7ca2c763f10cc620042879f3796a6420c04d",
+      "skipped": false,
+      "median_seconds": 0.00010916699829977006,
+      "samples_seconds": [
+        0.00011208299838472158,
+        0.00010887499956879765,
+        0.0001092080055968836,
+        0.00010916699829977006,
+        0.00010900000052060932
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "reversed",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "0c0df6316d6322ee42de7b64328e7ca2c763f10cc620042879f3796a6420c04d",
+      "skipped": false,
+      "median_seconds": 0.00045095800305716693,
+      "samples_seconds": [
+        0.0004580829991027713,
+        0.0004497499976423569,
+        0.00044891600555274636,
+        0.0004604170026141219,
+        0.00045095800305716693
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "reversed",
+      "algorithm": "heap_sort",
+      "input_sha256": "0c0df6316d6322ee42de7b64328e7ca2c763f10cc620042879f3796a6420c04d",
+      "skipped": false,
+      "median_seconds": 0.0010254169974359684,
+      "samples_seconds": [
+        0.0009995410000556149,
+        0.0010121250015799887,
+        0.0010272500003338791,
+        0.0010254169974359684,
+        0.0010298330016667023
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "reversed",
+      "algorithm": "quick_sort",
+      "input_sha256": "0c0df6316d6322ee42de7b64328e7ca2c763f10cc620042879f3796a6420c04d",
+      "skipped": false,
+      "median_seconds": 0.001014708002912812,
+      "samples_seconds": [
+        0.0010006250013248064,
+        0.001014292000036221,
+        0.001014708002912812,
+        0.001038041002175305,
+        0.0010199589960393496
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "reversed",
+      "algorithm": "sorted",
+      "input_sha256": "0c0df6316d6322ee42de7b64328e7ca2c763f10cc620042879f3796a6420c04d",
+      "skipped": false,
+      "median_seconds": 1.959000655915588e-06,
+      "samples_seconds": [
+        2.2090025595389307e-06,
+        2.082997525576502e-06,
+        1.959000655915588e-06,
+        1.958003849722445e-06,
+        1.958003849722445e-06
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "almost_sorted",
+      "algorithm": "merge_sort",
+      "input_sha256": "cc9cca54c6859551dbb2d8de732a0bf2ada1345ac7fa5a68baa4e315c897cf4c",
+      "skipped": false,
+      "median_seconds": 0.0011873749972437508,
+      "samples_seconds": [
+        0.0011871669994434342,
+        0.0011888749941135757,
+        0.0011873749972437508,
+        0.0011861249950015917,
+        0.0011969589977525175
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "almost_sorted",
+      "algorithm": "counting_sort",
+      "input_sha256": "cc9cca54c6859551dbb2d8de732a0bf2ada1345ac7fa5a68baa4e315c897cf4c",
+      "skipped": false,
+      "median_seconds": 0.00011104200530098751,
+      "samples_seconds": [
+        0.00011104200530098751,
+        0.00011091700434917584,
+        0.00011187500058440492,
+        0.00011054099741159007,
+        0.00011237499711569399
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "almost_sorted",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "cc9cca54c6859551dbb2d8de732a0bf2ada1345ac7fa5a68baa4e315c897cf4c",
+      "skipped": false,
+      "median_seconds": 0.00034429100196575746,
+      "samples_seconds": [
+        0.00034574999881442636,
+        0.00034429100196575746,
+        0.00034250000317115337,
+        0.0003435420003370382,
+        0.00034604199754539877
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "almost_sorted",
+      "algorithm": "heap_sort",
+      "input_sha256": "cc9cca54c6859551dbb2d8de732a0bf2ada1345ac7fa5a68baa4e315c897cf4c",
+      "skipped": false,
+      "median_seconds": 0.0011729159959941171,
+      "samples_seconds": [
+        0.0011632500027189963,
+        0.001164832996437326,
+        0.0011729159959941171,
+        0.0011878340010298416,
+        0.0011887080036103725
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "almost_sorted",
+      "algorithm": "quick_sort",
+      "input_sha256": "cc9cca54c6859551dbb2d8de732a0bf2ada1345ac7fa5a68baa4e315c897cf4c",
+      "skipped": false,
+      "median_seconds": 0.0010350409938837402,
+      "samples_seconds": [
+        0.0010350409938837402,
+        0.001014749999740161,
+        0.001118959000450559,
+        0.001090167002985254,
+        0.0010275410022586584
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 1000,
+      "distribution": "almost_sorted",
+      "algorithm": "sorted",
+      "input_sha256": "cc9cca54c6859551dbb2d8de732a0bf2ada1345ac7fa5a68baa4e315c897cf4c",
+      "skipped": false,
+      "median_seconds": 6.374997610691935e-06,
+      "samples_seconds": [
+        6.583002686966211e-06,
+        6.499998562503606e-06,
+        6.374997610691935e-06,
+        6.042006134521216e-06,
+        6.16600300418213e-06
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_wide",
+      "algorithm": "merge_sort",
+      "input_sha256": "bfff5953797c465c8013155dc54b046ca9b977491de7e52372717f5dd0e1a050",
+      "skipped": false,
+      "median_seconds": 0.004856499996094499,
+      "samples_seconds": [
+        0.004824415998882614,
+        0.004877499995927792,
+        0.0048066250019473955,
+        0.004867458002991043,
+        0.004856499996094499
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_wide",
+      "algorithm": "counting_sort",
+      "input_sha256": "bfff5953797c465c8013155dc54b046ca9b977491de7e52372717f5dd0e1a050",
+      "skipped": true,
+      "reason": "диапазон ключей до 10**9"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_wide",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "bfff5953797c465c8013155dc54b046ca9b977491de7e52372717f5dd0e1a050",
+      "skipped": false,
+      "median_seconds": 0.0031509160035056993,
+      "samples_seconds": [
+        0.0031509160035056993,
+        0.0031315829983213916,
+        0.003167416994983796,
+        0.0031615420011803508,
+        0.0031289580001612194
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_wide",
+      "algorithm": "heap_sort",
+      "input_sha256": "bfff5953797c465c8013155dc54b046ca9b977491de7e52372717f5dd0e1a050",
+      "skipped": false,
+      "median_seconds": 0.00400587500189431,
+      "samples_seconds": [
+        0.004131166999286506,
+        0.004003583002486266,
+        0.004046375004691072,
+        0.0039850000030128285,
+        0.00400587500189431
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_wide",
+      "algorithm": "quick_sort",
+      "input_sha256": "bfff5953797c465c8013155dc54b046ca9b977491de7e52372717f5dd0e1a050",
+      "skipped": false,
+      "median_seconds": 0.003808708002907224,
+      "samples_seconds": [
+        0.003808708002907224,
+        0.0034480409958632663,
+        0.003983958005846944,
+        0.0036414999995031394,
+        0.004029333002108615
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_wide",
+      "algorithm": "sorted",
+      "input_sha256": "bfff5953797c465c8013155dc54b046ca9b977491de7e52372717f5dd0e1a050",
+      "skipped": false,
+      "median_seconds": 7.966600242070854e-05,
+      "samples_seconds": [
+        9.44580024224706e-05,
+        8.529200567863882e-05,
+        7.966600242070854e-05,
+        7.958400237839669e-05,
+        7.699999696342275e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_small",
+      "algorithm": "merge_sort",
+      "input_sha256": "25b447b9af1044c691bdd5b1bed29e6bad7866e811f5d88ab41be04f02983f0f",
+      "skipped": false,
+      "median_seconds": 0.004761083997436799,
+      "samples_seconds": [
+        0.004786083001818042,
+        0.0047545420020469464,
+        0.004763917000673246,
+        0.004761083997436799,
+        0.0047402089985553175
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_small",
+      "algorithm": "counting_sort",
+      "input_sha256": "25b447b9af1044c691bdd5b1bed29e6bad7866e811f5d88ab41be04f02983f0f",
+      "skipped": false,
+      "median_seconds": 0.00021858399850316346,
+      "samples_seconds": [
+        0.0002176670022890903,
+        0.00022166699636727571,
+        0.00021716600167565048,
+        0.00022141700173961,
+        0.00021858399850316346
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_small",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "25b447b9af1044c691bdd5b1bed29e6bad7866e811f5d88ab41be04f02983f0f",
+      "skipped": false,
+      "median_seconds": 0.0010447499953443184,
+      "samples_seconds": [
+        0.0010447499953443184,
+        0.0010414169955765828,
+        0.0010453750001033768,
+        0.0010591659956844524,
+        0.0010415829965495504
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_small",
+      "algorithm": "heap_sort",
+      "input_sha256": "25b447b9af1044c691bdd5b1bed29e6bad7866e811f5d88ab41be04f02983f0f",
+      "skipped": false,
+      "median_seconds": 0.004000834000180475,
+      "samples_seconds": [
+        0.004009333002613857,
+        0.003959749999921769,
+        0.004000834000180475,
+        0.003989957993326243,
+        0.004032374999951571
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_small",
+      "algorithm": "quick_sort",
+      "input_sha256": "25b447b9af1044c691bdd5b1bed29e6bad7866e811f5d88ab41be04f02983f0f",
+      "skipped": false,
+      "median_seconds": 0.0014363750015036203,
+      "samples_seconds": [
+        0.0014240829987102188,
+        0.0014853340035188012,
+        0.0013795839986414649,
+        0.0014363750015036203,
+        0.0015022910010884516
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "random_small",
+      "algorithm": "sorted",
+      "input_sha256": "25b447b9af1044c691bdd5b1bed29e6bad7866e811f5d88ab41be04f02983f0f",
+      "skipped": false,
+      "median_seconds": 8.233400149038061e-05,
+      "samples_seconds": [
+        9.349999891128391e-05,
+        8.629199874121696e-05,
+        8.233400149038061e-05,
+        8.079200051724911e-05,
+        7.999999797903001e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "sorted",
+      "algorithm": "merge_sort",
+      "input_sha256": "3711d107391d7fc88c62b2dfb3cd0de49ed39656d96df635c34a02a8d548f74a",
+      "skipped": false,
+      "median_seconds": 0.003588166000554338,
+      "samples_seconds": [
+        0.003638166999735404,
+        0.0035260410004411824,
+        0.003566417006368283,
+        0.003588166000554338,
+        0.0036099170029046945
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "sorted",
+      "algorithm": "counting_sort",
+      "input_sha256": "3711d107391d7fc88c62b2dfb3cd0de49ed39656d96df635c34a02a8d548f74a",
+      "skipped": false,
+      "median_seconds": 0.00034504100040066987,
+      "samples_seconds": [
+        0.00033854100183816627,
+        0.00034504100040066987,
+        0.0003468330032774247,
+        0.00034416700509609655,
+        0.00034712500200839713
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "sorted",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "3711d107391d7fc88c62b2dfb3cd0de49ed39656d96df635c34a02a8d548f74a",
+      "skipped": false,
+      "median_seconds": 0.0013683750003110617,
+      "samples_seconds": [
+        0.0014017079956829548,
+        0.001365541000268422,
+        0.001381374997436069,
+        0.0013429579994408414,
+        0.0013683750003110617
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "sorted",
+      "algorithm": "heap_sort",
+      "input_sha256": "3711d107391d7fc88c62b2dfb3cd0de49ed39656d96df635c34a02a8d548f74a",
+      "skipped": false,
+      "median_seconds": 0.004226958000799641,
+      "samples_seconds": [
+        0.004226124998240266,
+        0.004225291995680891,
+        0.004250584002875257,
+        0.004226958000799641,
+        0.004266834002919495
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "sorted",
+      "algorithm": "quick_sort",
+      "input_sha256": "3711d107391d7fc88c62b2dfb3cd0de49ed39656d96df635c34a02a8d548f74a",
+      "skipped": false,
+      "median_seconds": 0.003495666998787783,
+      "samples_seconds": [
+        0.0035584159995778464,
+        0.003363707997777965,
+        0.003464791996520944,
+        0.003495666998787783,
+        0.0037524170038523152
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "sorted",
+      "algorithm": "sorted",
+      "input_sha256": "3711d107391d7fc88c62b2dfb3cd0de49ed39656d96df635c34a02a8d548f74a",
+      "skipped": false,
+      "median_seconds": 6.624999514315277e-06,
+      "samples_seconds": [
+        8.25000461190939e-06,
+        6.499998562503606e-06,
+        6.665999535471201e-06,
+        6.624999514315277e-06,
+        6.499998562503606e-06
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "reversed",
+      "algorithm": "merge_sort",
+      "input_sha256": "8d47e211646dfcea10191f28e717347476ee71749897a0a64cbdd38c94f6489b",
+      "skipped": false,
+      "median_seconds": 0.003689791999931913,
+      "samples_seconds": [
+        0.003761583000596147,
+        0.003680333000374958,
+        0.0037014169938629493,
+        0.003689791999931913,
+        0.0036703329969896004
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "reversed",
+      "algorithm": "counting_sort",
+      "input_sha256": "8d47e211646dfcea10191f28e717347476ee71749897a0a64cbdd38c94f6489b",
+      "skipped": false,
+      "median_seconds": 0.00034483399940654635,
+      "samples_seconds": [
+        0.0003422919980948791,
+        0.0003472500029602088,
+        0.0003422919980948791,
+        0.0003460000007180497,
+        0.00034483399940654635
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "reversed",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "8d47e211646dfcea10191f28e717347476ee71749897a0a64cbdd38c94f6489b",
+      "skipped": false,
+      "median_seconds": 0.001352166997094173,
+      "samples_seconds": [
+        0.0013883749998058192,
+        0.0013437079978757538,
+        0.001352166997094173,
+        0.0013477079992298968,
+        0.0013523750021704473
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "reversed",
+      "algorithm": "heap_sort",
+      "input_sha256": "8d47e211646dfcea10191f28e717347476ee71749897a0a64cbdd38c94f6489b",
+      "skipped": false,
+      "median_seconds": 0.00374504199862713,
+      "samples_seconds": [
+        0.0037468750015250407,
+        0.003707625000970438,
+        0.003778708000027109,
+        0.00374504199862713,
+        0.003727041999809444
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "reversed",
+      "algorithm": "quick_sort",
+      "input_sha256": "8d47e211646dfcea10191f28e717347476ee71749897a0a64cbdd38c94f6489b",
+      "skipped": false,
+      "median_seconds": 0.0035695000042323954,
+      "samples_seconds": [
+        0.003873124995152466,
+        0.0033355409977957606,
+        0.003616458998294547,
+        0.003555916999175679,
+        0.0035695000042323954
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "reversed",
+      "algorithm": "sorted",
+      "input_sha256": "8d47e211646dfcea10191f28e717347476ee71749897a0a64cbdd38c94f6489b",
+      "skipped": false,
+      "median_seconds": 6.207999831531197e-06,
+      "samples_seconds": [
+        8.084003638941795e-06,
+        5.708003300242126e-06,
+        6.207999831531197e-06,
+        5.666996003128588e-06,
+        6.2920007621869445e-06
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "almost_sorted",
+      "algorithm": "merge_sort",
+      "input_sha256": "0a3e186d1588b26dccd12bb53b9d2ed9e5ae16d3416a70b9b99955ece44afc1c",
+      "skipped": false,
+      "median_seconds": 0.004177041999355424,
+      "samples_seconds": [
+        0.004206708996207453,
+        0.004177041999355424,
+        0.004188790997432079,
+        0.004174708003120031,
+        0.0041665000026114285
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "almost_sorted",
+      "algorithm": "counting_sort",
+      "input_sha256": "0a3e186d1588b26dccd12bb53b9d2ed9e5ae16d3416a70b9b99955ece44afc1c",
+      "skipped": false,
+      "median_seconds": 0.000340958999004215,
+      "samples_seconds": [
+        0.00033925000025192276,
+        0.00033799999800976366,
+        0.00034337500255787745,
+        0.000340958999004215,
+        0.0003452499950071797
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "almost_sorted",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "0a3e186d1588b26dccd12bb53b9d2ed9e5ae16d3416a70b9b99955ece44afc1c",
+      "skipped": false,
+      "median_seconds": 0.0013765420007985085,
+      "samples_seconds": [
+        0.0013802500034216791,
+        0.001359750000119675,
+        0.0013765420007985085,
+        0.0013955829999758862,
+        0.001370207995933015
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "almost_sorted",
+      "algorithm": "heap_sort",
+      "input_sha256": "0a3e186d1588b26dccd12bb53b9d2ed9e5ae16d3416a70b9b99955ece44afc1c",
+      "skipped": false,
+      "median_seconds": 0.004191499996522907,
+      "samples_seconds": [
+        0.004192375003185589,
+        0.004191499996522907,
+        0.004171124994172715,
+        0.004187624996120576,
+        0.0042186659993603826
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "almost_sorted",
+      "algorithm": "quick_sort",
+      "input_sha256": "0a3e186d1588b26dccd12bb53b9d2ed9e5ae16d3416a70b9b99955ece44afc1c",
+      "skipped": false,
+      "median_seconds": 0.003677583001262974,
+      "samples_seconds": [
+        0.003431541997997556,
+        0.003555499999492895,
+        0.003905833000317216,
+        0.003755208002985455,
+        0.003677583001262974
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 3000,
+      "distribution": "almost_sorted",
+      "algorithm": "sorted",
+      "input_sha256": "0a3e186d1588b26dccd12bb53b9d2ed9e5ae16d3416a70b9b99955ece44afc1c",
+      "skipped": false,
+      "median_seconds": 1.8915998225566e-05,
+      "samples_seconds": [
+        2.0791994757018983e-05,
+        1.912500010803342e-05,
+        1.8915998225566e-05,
+        1.883300137706101e-05,
+        1.8582999473437667e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_wide",
+      "algorithm": "merge_sort",
+      "input_sha256": "6467cef0e9e0afad6864c870906c68c0bde97acf3bc267eea521ecd9a38af2f2",
+      "skipped": false,
+      "median_seconds": 0.018302708005649038,
+      "samples_seconds": [
+        0.018794582996633835,
+        0.018302666998351924,
+        0.018302708005649038,
+        0.018248207998112775,
+        0.01837649999652058
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_wide",
+      "algorithm": "counting_sort",
+      "input_sha256": "6467cef0e9e0afad6864c870906c68c0bde97acf3bc267eea521ecd9a38af2f2",
+      "skipped": true,
+      "reason": "диапазон ключей до 10**9"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_wide",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "6467cef0e9e0afad6864c870906c68c0bde97acf3bc267eea521ecd9a38af2f2",
+      "skipped": false,
+      "median_seconds": 0.010412167001049966,
+      "samples_seconds": [
+        0.010493417001271155,
+        0.01042533299914794,
+        0.01036191699677147,
+        0.010373917000833899,
+        0.010412167001049966
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_wide",
+      "algorithm": "heap_sort",
+      "input_sha256": "6467cef0e9e0afad6864c870906c68c0bde97acf3bc267eea521ecd9a38af2f2",
+      "skipped": false,
+      "median_seconds": 0.015923790997476317,
+      "samples_seconds": [
+        0.015923790997476317,
+        0.015924291998089757,
+        0.015915584001049865,
+        0.015936957999656443,
+        0.015906415996141732
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_wide",
+      "algorithm": "quick_sort",
+      "input_sha256": "6467cef0e9e0afad6864c870906c68c0bde97acf3bc267eea521ecd9a38af2f2",
+      "skipped": false,
+      "median_seconds": 0.013937000003352296,
+      "samples_seconds": [
+        0.01438462499936577,
+        0.013823416993545834,
+        0.01389654200465884,
+        0.014350209006806836,
+        0.013937000003352296
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_wide",
+      "algorithm": "sorted",
+      "input_sha256": "6467cef0e9e0afad6864c870906c68c0bde97acf3bc267eea521ecd9a38af2f2",
+      "skipped": false,
+      "median_seconds": 0.00044674999662674963,
+      "samples_seconds": [
+        0.0004758340000989847,
+        0.0004561669993563555,
+        0.00044674999662674963,
+        0.0004390419999253936,
+        0.0004310000003897585
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_small",
+      "algorithm": "merge_sort",
+      "input_sha256": "da4c862411b54a4b208ee688cf49d5a7d8d8a7fb292901364ad3d4aaada72831",
+      "skipped": false,
+      "median_seconds": 0.01796887499949662,
+      "samples_seconds": [
+        0.01813566600321792,
+        0.01795016699907137,
+        0.018024124998191837,
+        0.017940249999810476,
+        0.01796887499949662
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_small",
+      "algorithm": "counting_sort",
+      "input_sha256": "da4c862411b54a4b208ee688cf49d5a7d8d8a7fb292901364ad3d4aaada72831",
+      "skipped": false,
+      "median_seconds": 0.000720500000170432,
+      "samples_seconds": [
+        0.0007172089972300455,
+        0.0007161250032368116,
+        0.0007255000018631108,
+        0.0007225000008475035,
+        0.000720500000170432
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_small",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "da4c862411b54a4b208ee688cf49d5a7d8d8a7fb292901364ad3d4aaada72831",
+      "skipped": false,
+      "median_seconds": 0.0034929589965031482,
+      "samples_seconds": [
+        0.0035364169962122105,
+        0.0034929589965031482,
+        0.003528417000779882,
+        0.0034912089977297,
+        0.0034119170013582334
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_small",
+      "algorithm": "heap_sort",
+      "input_sha256": "da4c862411b54a4b208ee688cf49d5a7d8d8a7fb292901364ad3d4aaada72831",
+      "skipped": false,
+      "median_seconds": 0.01564283399784472,
+      "samples_seconds": [
+        0.015578291997371707,
+        0.015720666000561323,
+        0.015693500004999805,
+        0.01564283399784472,
+        0.015627417000359856
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_small",
+      "algorithm": "quick_sort",
+      "input_sha256": "da4c862411b54a4b208ee688cf49d5a7d8d8a7fb292901364ad3d4aaada72831",
+      "skipped": false,
+      "median_seconds": 0.004963874998793472,
+      "samples_seconds": [
+        0.005033374996855855,
+        0.004963874998793472,
+        0.004468584003916476,
+        0.0050914160019601695,
+        0.004661292005039286
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "random_small",
+      "algorithm": "sorted",
+      "input_sha256": "da4c862411b54a4b208ee688cf49d5a7d8d8a7fb292901364ad3d4aaada72831",
+      "skipped": false,
+      "median_seconds": 0.00034129199775634333,
+      "samples_seconds": [
+        0.000367124994227197,
+        0.00034733400389086455,
+        0.00034129199775634333,
+        0.0003267499996582046,
+        0.0003236249976907857
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "sorted",
+      "algorithm": "merge_sort",
+      "input_sha256": "a74675bfed3834ac1c3140b2d7fb7d93d90a76608cc08515a5019a1cb2075ff4",
+      "skipped": false,
+      "median_seconds": 0.0134517090045847,
+      "samples_seconds": [
+        0.015111207998415921,
+        0.013618999997561332,
+        0.013402000004134607,
+        0.0134517090045847,
+        0.013396750000538304
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "sorted",
+      "algorithm": "counting_sort",
+      "input_sha256": "a74675bfed3834ac1c3140b2d7fb7d93d90a76608cc08515a5019a1cb2075ff4",
+      "skipped": false,
+      "median_seconds": 0.001175165998574812,
+      "samples_seconds": [
+        0.001177957994514145,
+        0.001175165998574812,
+        0.0011973750006291084,
+        0.0011562499930732884,
+        0.00116833300126018
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "sorted",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "a74675bfed3834ac1c3140b2d7fb7d93d90a76608cc08515a5019a1cb2075ff4",
+      "skipped": false,
+      "median_seconds": 0.0046943330016802065,
+      "samples_seconds": [
+        0.004706791994976811,
+        0.0046943330016802065,
+        0.004658915997424629,
+        0.004598125000484288,
+        0.004711665998911485
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "sorted",
+      "algorithm": "heap_sort",
+      "input_sha256": "a74675bfed3834ac1c3140b2d7fb7d93d90a76608cc08515a5019a1cb2075ff4",
+      "skipped": false,
+      "median_seconds": 0.016448957998363767,
+      "samples_seconds": [
+        0.01693633299873909,
+        0.016606040997430682,
+        0.016448957998363767,
+        0.01635158299905015,
+        0.016332166000211146
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "sorted",
+      "algorithm": "quick_sort",
+      "input_sha256": "a74675bfed3834ac1c3140b2d7fb7d93d90a76608cc08515a5019a1cb2075ff4",
+      "skipped": false,
+      "median_seconds": 0.01368841599469306,
+      "samples_seconds": [
+        0.013496332998329308,
+        0.01340479200007394,
+        0.013810167001793161,
+        0.014022208000824321,
+        0.01368841599469306
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "sorted",
+      "algorithm": "sorted",
+      "input_sha256": "a74675bfed3834ac1c3140b2d7fb7d93d90a76608cc08515a5019a1cb2075ff4",
+      "skipped": false,
+      "median_seconds": 1.7708000086713582e-05,
+      "samples_seconds": [
+        1.8250000721309334e-05,
+        1.7833997844718397e-05,
+        1.7666003259364516e-05,
+        1.7708000086713582e-05,
+        1.7708000086713582e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "reversed",
+      "algorithm": "merge_sort",
+      "input_sha256": "6ff50962889ec47e99e4943c29d9d8e4ff790c8c3a0e1414dcc6571315a38a7a",
+      "skipped": false,
+      "median_seconds": 0.01393008299783105,
+      "samples_seconds": [
+        0.013988165999762714,
+        0.01393008299783105,
+        0.013847916001395788,
+        0.013884624997444917,
+        0.013938124997366685
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "reversed",
+      "algorithm": "counting_sort",
+      "input_sha256": "6ff50962889ec47e99e4943c29d9d8e4ff790c8c3a0e1414dcc6571315a38a7a",
+      "skipped": false,
+      "median_seconds": 0.0011613339956966229,
+      "samples_seconds": [
+        0.0011820419967989437,
+        0.0011537919999682344,
+        0.0011546250025276095,
+        0.0011613339956966229,
+        0.0011672090040519834
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "reversed",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "6ff50962889ec47e99e4943c29d9d8e4ff790c8c3a0e1414dcc6571315a38a7a",
+      "skipped": false,
+      "median_seconds": 0.005709291996026877,
+      "samples_seconds": [
+        0.005780291998235043,
+        0.005704750001314096,
+        0.005641499999910593,
+        0.005709291996026877,
+        0.005723707996367011
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "reversed",
+      "algorithm": "heap_sort",
+      "input_sha256": "6ff50962889ec47e99e4943c29d9d8e4ff790c8c3a0e1414dcc6571315a38a7a",
+      "skipped": false,
+      "median_seconds": 0.01488904200232355,
+      "samples_seconds": [
+        0.014872708998154849,
+        0.01488904200232355,
+        0.014942417001293506,
+        0.014881000002787914,
+        0.014914084000338335
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "reversed",
+      "algorithm": "quick_sort",
+      "input_sha256": "6ff50962889ec47e99e4943c29d9d8e4ff790c8c3a0e1414dcc6571315a38a7a",
+      "skipped": false,
+      "median_seconds": 0.01363270800356986,
+      "samples_seconds": [
+        0.01363270800356986,
+        0.01333595800679177,
+        0.014194082999892998,
+        0.013102958000672515,
+        0.013825041998643428
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "reversed",
+      "algorithm": "sorted",
+      "input_sha256": "6ff50962889ec47e99e4943c29d9d8e4ff790c8c3a0e1414dcc6571315a38a7a",
+      "skipped": false,
+      "median_seconds": 2.7624999347608536e-05,
+      "samples_seconds": [
+        2.8957998438272625e-05,
+        2.7667003450915217e-05,
+        2.750000567175448e-05,
+        2.7624999347608536e-05,
+        2.750000567175448e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "almost_sorted",
+      "algorithm": "merge_sort",
+      "input_sha256": "96be9baa711bf68067e62d1457a789b5b4dbb4e9ca1bd9dc4107024683464074",
+      "skipped": false,
+      "median_seconds": 0.016139749997819308,
+      "samples_seconds": [
+        0.016163457999937236,
+        0.016015542001696303,
+        0.016005833000235725,
+        0.016139749997819308,
+        0.016508250002516434
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "almost_sorted",
+      "algorithm": "counting_sort",
+      "input_sha256": "96be9baa711bf68067e62d1457a789b5b4dbb4e9ca1bd9dc4107024683464074",
+      "skipped": false,
+      "median_seconds": 0.0011677910006255843,
+      "samples_seconds": [
+        0.0011656670030788518,
+        0.001175124998553656,
+        0.0011795419995905831,
+        0.0011677910006255843,
+        0.0011635000046226196
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "almost_sorted",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "96be9baa711bf68067e62d1457a789b5b4dbb4e9ca1bd9dc4107024683464074",
+      "skipped": false,
+      "median_seconds": 0.004646041001251433,
+      "samples_seconds": [
+        0.004668082998250611,
+        0.004646041001251433,
+        0.004658957994251978,
+        0.004601708002155647,
+        0.004634958997485228
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "almost_sorted",
+      "algorithm": "heap_sort",
+      "input_sha256": "96be9baa711bf68067e62d1457a789b5b4dbb4e9ca1bd9dc4107024683464074",
+      "skipped": false,
+      "median_seconds": 0.016341042006388307,
+      "samples_seconds": [
+        0.016341042006388307,
+        0.01635674999852199,
+        0.016399583000747953,
+        0.0162408750038594,
+        0.016327332996297628
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "almost_sorted",
+      "algorithm": "quick_sort",
+      "input_sha256": "96be9baa711bf68067e62d1457a789b5b4dbb4e9ca1bd9dc4107024683464074",
+      "skipped": false,
+      "median_seconds": 0.013620833000459243,
+      "samples_seconds": [
+        0.013620833000459243,
+        0.014117499995336402,
+        0.013304457999765873,
+        0.01356645800115075,
+        0.013972166998428293
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 10000,
+      "distribution": "almost_sorted",
+      "algorithm": "sorted",
+      "input_sha256": "96be9baa711bf68067e62d1457a789b5b4dbb4e9ca1bd9dc4107024683464074",
+      "skipped": false,
+      "median_seconds": 6.712500180583447e-05,
+      "samples_seconds": [
+        6.995799776632339e-05,
+        6.091599789215252e-05,
+        6.775000656489283e-05,
+        5.983300070511177e-05,
+        6.712500180583447e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_wide",
+      "algorithm": "merge_sort",
+      "input_sha256": "e074d7c351df007d9287dd19dbc34b9b2e6e1a875ffd954b30555e1522510dd8",
+      "skipped": false,
+      "median_seconds": 0.06128312500368338,
+      "samples_seconds": [
+        0.06128312500368338,
+        0.06068816700280877,
+        0.06068212499667425,
+        0.06162729099742137,
+        0.061934707999171223
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_wide",
+      "algorithm": "counting_sort",
+      "input_sha256": "e074d7c351df007d9287dd19dbc34b9b2e6e1a875ffd954b30555e1522510dd8",
+      "skipped": true,
+      "reason": "диапазон ключей до 10**9"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_wide",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "e074d7c351df007d9287dd19dbc34b9b2e6e1a875ffd954b30555e1522510dd8",
+      "skipped": false,
+      "median_seconds": 0.03170529199996963,
+      "samples_seconds": [
+        0.03170529199996963,
+        0.03160158399987267,
+        0.03167474999645492,
+        0.03215908400306944,
+        0.03225887499866076
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_wide",
+      "algorithm": "heap_sort",
+      "input_sha256": "e074d7c351df007d9287dd19dbc34b9b2e6e1a875ffd954b30555e1522510dd8",
+      "skipped": false,
+      "median_seconds": 0.054919791997235734,
+      "samples_seconds": [
+        0.05488487500406336,
+        0.05500074999872595,
+        0.05495870899903821,
+        0.05486120799469063,
+        0.054919791997235734
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_wide",
+      "algorithm": "quick_sort",
+      "input_sha256": "e074d7c351df007d9287dd19dbc34b9b2e6e1a875ffd954b30555e1522510dd8",
+      "skipped": false,
+      "median_seconds": 0.0453985419953824,
+      "samples_seconds": [
+        0.04686879200016847,
+        0.0453985419953824,
+        0.04935195800499059,
+        0.04522966700460529,
+        0.044020542001817375
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_wide",
+      "algorithm": "sorted",
+      "input_sha256": "e074d7c351df007d9287dd19dbc34b9b2e6e1a875ffd954b30555e1522510dd8",
+      "skipped": false,
+      "median_seconds": 0.0018601670017233118,
+      "samples_seconds": [
+        0.001860541000496596,
+        0.0018335409986320883,
+        0.0018601670017233118,
+        0.0019155000045429915,
+        0.0018599579998408444
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_small",
+      "algorithm": "merge_sort",
+      "input_sha256": "bfd392f18ad3a46d640a1491d0b721a41a6ada78b32b7f8b144c4fb58b93c5f6",
+      "skipped": false,
+      "median_seconds": 0.05994287499925122,
+      "samples_seconds": [
+        0.06005379200360039,
+        0.05996870899980422,
+        0.059760791998996865,
+        0.05994287499925122,
+        0.05989150000095833
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_small",
+      "algorithm": "counting_sort",
+      "input_sha256": "bfd392f18ad3a46d640a1491d0b721a41a6ada78b32b7f8b144c4fb58b93c5f6",
+      "skipped": false,
+      "median_seconds": 0.0021873329969821498,
+      "samples_seconds": [
+        0.00219529199966928,
+        0.0021640419945470057,
+        0.002187124999181833,
+        0.0021873329969821498,
+        0.0022071669955039397
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_small",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "bfd392f18ad3a46d640a1491d0b721a41a6ada78b32b7f8b144c4fb58b93c5f6",
+      "skipped": false,
+      "median_seconds": 0.010405500004708301,
+      "samples_seconds": [
+        0.010397915997600649,
+        0.010405500004708301,
+        0.010496082999452483,
+        0.010518791001231875,
+        0.010385333000158425
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_small",
+      "algorithm": "heap_sort",
+      "input_sha256": "bfd392f18ad3a46d640a1491d0b721a41a6ada78b32b7f8b144c4fb58b93c5f6",
+      "skipped": false,
+      "median_seconds": 0.053244000002450775,
+      "samples_seconds": [
+        0.053142042001127265,
+        0.053175250002823304,
+        0.05330645800131606,
+        0.053244000002450775,
+        0.0533216249968973
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_small",
+      "algorithm": "quick_sort",
+      "input_sha256": "bfd392f18ad3a46d640a1491d0b721a41a6ada78b32b7f8b144c4fb58b93c5f6",
+      "skipped": false,
+      "median_seconds": 0.01601341700006742,
+      "samples_seconds": [
+        0.016361291003704537,
+        0.01601341700006742,
+        0.01320020900311647,
+        0.016564083001867402,
+        0.014331999998830725
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "random_small",
+      "algorithm": "sorted",
+      "input_sha256": "bfd392f18ad3a46d640a1491d0b721a41a6ada78b32b7f8b144c4fb58b93c5f6",
+      "skipped": false,
+      "median_seconds": 0.00126937500317581,
+      "samples_seconds": [
+        0.0013114169996697456,
+        0.0012893329985672608,
+        0.001244208004209213,
+        0.00126937500317581,
+        0.0012323330010985956
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "sorted",
+      "algorithm": "merge_sort",
+      "input_sha256": "d9c706040ad1cff51204ca802cd2069b5f7fa7c3ebfd1ca6bae70766fdd02abe",
+      "skipped": false,
+      "median_seconds": 0.04418916600116063,
+      "samples_seconds": [
+        0.044374999997671694,
+        0.044171333000122104,
+        0.04418916600116063,
+        0.044136249998700805,
+        0.04423362499801442
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "sorted",
+      "algorithm": "counting_sort",
+      "input_sha256": "d9c706040ad1cff51204ca802cd2069b5f7fa7c3ebfd1ca6bae70766fdd02abe",
+      "skipped": false,
+      "median_seconds": 0.003559541997674387,
+      "samples_seconds": [
+        0.003591833003156353,
+        0.003559541997674387,
+        0.00352345900319051,
+        0.0035430839998298325,
+        0.0035737919970415533
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "sorted",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "d9c706040ad1cff51204ca802cd2069b5f7fa7c3ebfd1ca6bae70766fdd02abe",
+      "skipped": false,
+      "median_seconds": 0.01740816699748393,
+      "samples_seconds": [
+        0.017718500006594695,
+        0.017248708005354274,
+        0.01740816699748393,
+        0.01743687500129454,
+        0.017219583001860883
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "sorted",
+      "algorithm": "heap_sort",
+      "input_sha256": "d9c706040ad1cff51204ca802cd2069b5f7fa7c3ebfd1ca6bae70766fdd02abe",
+      "skipped": false,
+      "median_seconds": 0.05579179200140061,
+      "samples_seconds": [
+        0.055323791995760985,
+        0.05537404200003948,
+        0.05617308399814647,
+        0.05579179200140061,
+        0.05620962499961024
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "sorted",
+      "algorithm": "quick_sort",
+      "input_sha256": "d9c706040ad1cff51204ca802cd2069b5f7fa7c3ebfd1ca6bae70766fdd02abe",
+      "skipped": false,
+      "median_seconds": 0.046157958000549115,
+      "samples_seconds": [
+        0.046157958000549115,
+        0.04610520899586845,
+        0.049594124997383915,
+        0.045948584003781434,
+        0.04633966700203018
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "sorted",
+      "algorithm": "sorted",
+      "input_sha256": "d9c706040ad1cff51204ca802cd2069b5f7fa7c3ebfd1ca6bae70766fdd02abe",
+      "skipped": false,
+      "median_seconds": 5.816599878016859e-05,
+      "samples_seconds": [
+        5.8750003518071026e-05,
+        5.812499875901267e-05,
+        5.816599878016859e-05,
+        5.8041994634550065e-05,
+        5.9958998463116586e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "reversed",
+      "algorithm": "merge_sort",
+      "input_sha256": "bc20edae150610b2966578d25168d1ba29ceb2e22e323cda970f8ca37cbf143a",
+      "skipped": false,
+      "median_seconds": 0.04592054100066889,
+      "samples_seconds": [
+        0.04626216700125951,
+        0.045581708996905945,
+        0.04592054100066889,
+        0.046751292000408284,
+        0.04560962500545429
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "reversed",
+      "algorithm": "counting_sort",
+      "input_sha256": "bc20edae150610b2966578d25168d1ba29ceb2e22e323cda970f8ca37cbf143a",
+      "skipped": false,
+      "median_seconds": 0.0035710829979507253,
+      "samples_seconds": [
+        0.0035710829979507253,
+        0.0035645000025397167,
+        0.0035353330022189766,
+        0.0036702919969684444,
+        0.003577750001568347
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "reversed",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "bc20edae150610b2966578d25168d1ba29ceb2e22e323cda970f8ca37cbf143a",
+      "skipped": false,
+      "median_seconds": 0.0174392910048482,
+      "samples_seconds": [
+        0.017916999997396488,
+        0.017262749999645166,
+        0.0174392910048482,
+        0.017262583001866005,
+        0.01751233299728483
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "reversed",
+      "algorithm": "heap_sort",
+      "input_sha256": "bc20edae150610b2966578d25168d1ba29ceb2e22e323cda970f8ca37cbf143a",
+      "skipped": false,
+      "median_seconds": 0.05132958300237078,
+      "samples_seconds": [
+        0.05132958300237078,
+        0.05123154199827695,
+        0.05120337499829475,
+        0.052172541996696964,
+        0.05138158299814677
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "reversed",
+      "algorithm": "quick_sort",
+      "input_sha256": "bc20edae150610b2966578d25168d1ba29ceb2e22e323cda970f8ca37cbf143a",
+      "skipped": false,
+      "median_seconds": 0.04555270799755817,
+      "samples_seconds": [
+        0.04652087499562185,
+        0.04438287499942817,
+        0.045631916997081134,
+        0.04555270799755817,
+        0.04550054099672707
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "reversed",
+      "algorithm": "sorted",
+      "input_sha256": "bc20edae150610b2966578d25168d1ba29ceb2e22e323cda970f8ca37cbf143a",
+      "skipped": false,
+      "median_seconds": 6.0708996898029e-05,
+      "samples_seconds": [
+        6.0792001022491604e-05,
+        5.8999998145736754e-05,
+        6.0708996898029e-05,
+        6.341699918266386e-05,
+        6.0500002291519195e-05
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "almost_sorted",
+      "algorithm": "merge_sort",
+      "input_sha256": "a5fbecefe7055c6e29dfc0e78d672656d2a329bf90b2cd55f307516f24c7bf40",
+      "skipped": false,
+      "median_seconds": 0.05448745800094912,
+      "samples_seconds": [
+        0.05482545800623484,
+        0.05392075000418117,
+        0.05389933299738914,
+        0.05448745800094912,
+        0.05613029200321762
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "almost_sorted",
+      "algorithm": "counting_sort",
+      "input_sha256": "a5fbecefe7055c6e29dfc0e78d672656d2a329bf90b2cd55f307516f24c7bf40",
+      "skipped": false,
+      "median_seconds": 0.0036386670035426505,
+      "samples_seconds": [
+        0.0037720000036642887,
+        0.0036621670005843043,
+        0.003570209002646152,
+        0.0036386670035426505,
+        0.003624541001045145
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "almost_sorted",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "a5fbecefe7055c6e29dfc0e78d672656d2a329bf90b2cd55f307516f24c7bf40",
+      "skipped": false,
+      "median_seconds": 0.018156833000830375,
+      "samples_seconds": [
+        0.018156833000830375,
+        0.018826416999218054,
+        0.017840291002357844,
+        0.017318459002126474,
+        0.01826233299652813
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "almost_sorted",
+      "algorithm": "heap_sort",
+      "input_sha256": "a5fbecefe7055c6e29dfc0e78d672656d2a329bf90b2cd55f307516f24c7bf40",
+      "skipped": false,
+      "median_seconds": 0.055831457997555844,
+      "samples_seconds": [
+        0.05585395899834111,
+        0.055879958999867085,
+        0.055831457997555844,
+        0.055540332999953534,
+        0.05547824999666773
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "almost_sorted",
+      "algorithm": "quick_sort",
+      "input_sha256": "a5fbecefe7055c6e29dfc0e78d672656d2a329bf90b2cd55f307516f24c7bf40",
+      "skipped": false,
+      "median_seconds": 0.04708158400171669,
+      "samples_seconds": [
+        0.04678220800269628,
+        0.062458125001285225,
+        0.05628820799756795,
+        0.044494417001260445,
+        0.04708158400171669
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 30000,
+      "distribution": "almost_sorted",
+      "algorithm": "sorted",
+      "input_sha256": "a5fbecefe7055c6e29dfc0e78d672656d2a329bf90b2cd55f307516f24c7bf40",
+      "skipped": false,
+      "median_seconds": 0.00026370800333097577,
+      "samples_seconds": [
+        0.00027075000252807513,
+        0.00024325000413227826,
+        0.00026604199956636876,
+        0.00023891599994385615,
+        0.00026370800333097577
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_wide",
+      "algorithm": "merge_sort",
+      "input_sha256": "13a0ebda403d4effde88ebcf2897f576b12b49d95c3e973f199a6bbd8202f94f",
+      "skipped": false,
+      "median_seconds": 0.22686404200067045,
+      "samples_seconds": [
+        0.2306468329989002,
+        0.252958832999866,
+        0.22686404200067045,
+        0.22597933300130535,
+        0.2266955000013695
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_wide",
+      "algorithm": "counting_sort",
+      "input_sha256": "13a0ebda403d4effde88ebcf2897f576b12b49d95c3e973f199a6bbd8202f94f",
+      "skipped": true,
+      "reason": "диапазон ключей до 10**9"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_wide",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "13a0ebda403d4effde88ebcf2897f576b12b49d95c3e973f199a6bbd8202f94f",
+      "skipped": false,
+      "median_seconds": 0.11143287499726284,
+      "samples_seconds": [
+        0.11143287499726284,
+        0.11199458299961407,
+        0.11293483299959917,
+        0.11055012499855366,
+        0.11013683299825061
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_wide",
+      "algorithm": "heap_sort",
+      "input_sha256": "13a0ebda403d4effde88ebcf2897f576b12b49d95c3e973f199a6bbd8202f94f",
+      "skipped": false,
+      "median_seconds": 0.21092920799856074,
+      "samples_seconds": [
+        0.21171925000089686,
+        0.21092920799856074,
+        0.21045362500444753,
+        0.21028758399916114,
+        0.2111717499938095
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_wide",
+      "algorithm": "quick_sort",
+      "input_sha256": "13a0ebda403d4effde88ebcf2897f576b12b49d95c3e973f199a6bbd8202f94f",
+      "skipped": false,
+      "median_seconds": 0.1723960419985815,
+      "samples_seconds": [
+        0.1723960419985815,
+        0.17281854199973168,
+        0.17827333400055068,
+        0.17199545900075464,
+        0.1637762919999659
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_wide",
+      "algorithm": "sorted",
+      "input_sha256": "13a0ebda403d4effde88ebcf2897f576b12b49d95c3e973f199a6bbd8202f94f",
+      "skipped": false,
+      "median_seconds": 0.0072287919974769466,
+      "samples_seconds": [
+        0.007265749998623505,
+        0.007263874998898245,
+        0.007110082995495759,
+        0.0072287919974769466,
+        0.007180832995800301
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_small",
+      "algorithm": "merge_sort",
+      "input_sha256": "c6245ce9a01282a1cc1015d92e7cefab40980e65cdba6e82853dc83a5f06c4bc",
+      "skipped": false,
+      "median_seconds": 0.22158766700158594,
+      "samples_seconds": [
+        0.22361670800455613,
+        0.22085858300124528,
+        0.22188958399783587,
+        0.22158766700158594,
+        0.22088095900107874
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_small",
+      "algorithm": "counting_sort",
+      "input_sha256": "c6245ce9a01282a1cc1015d92e7cefab40980e65cdba6e82853dc83a5f06c4bc",
+      "skipped": false,
+      "median_seconds": 0.008257416993728839,
+      "samples_seconds": [
+        0.008307582997076679,
+        0.008283917006338015,
+        0.00820154099346837,
+        0.008257416993728839,
+        0.008162917001754977
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_small",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "c6245ce9a01282a1cc1015d92e7cefab40980e65cdba6e82853dc83a5f06c4bc",
+      "skipped": false,
+      "median_seconds": 0.03455879200191703,
+      "samples_seconds": [
+        0.0367616250005085,
+        0.03455879200191703,
+        0.03469641700212378,
+        0.0345040419997531,
+        0.034237666994158644
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_small",
+      "algorithm": "heap_sort",
+      "input_sha256": "c6245ce9a01282a1cc1015d92e7cefab40980e65cdba6e82853dc83a5f06c4bc",
+      "skipped": false,
+      "median_seconds": 0.20083879199955845,
+      "samples_seconds": [
+        0.20076412500202423,
+        0.20083879199955845,
+        0.2003610829997342,
+        0.20128400000248803,
+        0.20137637500010896
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_small",
+      "algorithm": "quick_sort",
+      "input_sha256": "c6245ce9a01282a1cc1015d92e7cefab40980e65cdba6e82853dc83a5f06c4bc",
+      "skipped": false,
+      "median_seconds": 0.04650795800262131,
+      "samples_seconds": [
+        0.05178358299599495,
+        0.04919287499797065,
+        0.04325499999686144,
+        0.045572000002721325,
+        0.04650795800262131
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "random_small",
+      "algorithm": "sorted",
+      "input_sha256": "c6245ce9a01282a1cc1015d92e7cefab40980e65cdba6e82853dc83a5f06c4bc",
+      "skipped": false,
+      "median_seconds": 0.0046430830043391325,
+      "samples_seconds": [
+        0.00456112500251038,
+        0.004495000001043081,
+        0.004782083000463899,
+        0.0046430830043391325,
+        0.004840042005525902
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "sorted",
+      "algorithm": "merge_sort",
+      "input_sha256": "ef440f29f9463eac65fda8b2e1214628852802516a2b06ae1a1b020743b78a20",
+      "skipped": false,
+      "median_seconds": 0.16190774999995483,
+      "samples_seconds": [
+        0.16334154100331943,
+        0.16190774999995483,
+        0.16177725000306964,
+        0.16171500000200467,
+        0.1619916670024395
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "sorted",
+      "algorithm": "counting_sort",
+      "input_sha256": "ef440f29f9463eac65fda8b2e1214628852802516a2b06ae1a1b020743b78a20",
+      "skipped": false,
+      "median_seconds": 0.012108457995054778,
+      "samples_seconds": [
+        0.012148625006375369,
+        0.01201125000079628,
+        0.012219333002576604,
+        0.012108457995054778,
+        0.011923209000087809
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "sorted",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "ef440f29f9463eac65fda8b2e1214628852802516a2b06ae1a1b020743b78a20",
+      "skipped": false,
+      "median_seconds": 0.05915587500203401,
+      "samples_seconds": [
+        0.059876499995880295,
+        0.05928566699731164,
+        0.05877383400365943,
+        0.05915587500203401,
+        0.05872850000014296
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "sorted",
+      "algorithm": "heap_sort",
+      "input_sha256": "ef440f29f9463eac65fda8b2e1214628852802516a2b06ae1a1b020743b78a20",
+      "skipped": false,
+      "median_seconds": 0.20837966699764365,
+      "samples_seconds": [
+        0.2082982499996433,
+        0.20845445900340565,
+        0.20837966699764365,
+        0.20852345900493674,
+        0.20833487500203773
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "sorted",
+      "algorithm": "quick_sort",
+      "input_sha256": "ef440f29f9463eac65fda8b2e1214628852802516a2b06ae1a1b020743b78a20",
+      "skipped": false,
+      "median_seconds": 0.1725242500033346,
+      "samples_seconds": [
+        0.17473091700230725,
+        0.17432429199834587,
+        0.1725242500033346,
+        0.17177108400210273,
+        0.1673422079984448
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "sorted",
+      "algorithm": "sorted",
+      "input_sha256": "ef440f29f9463eac65fda8b2e1214628852802516a2b06ae1a1b020743b78a20",
+      "skipped": false,
+      "median_seconds": 0.00026308300584787503,
+      "samples_seconds": [
+        0.0002634999982547015,
+        0.00026308300584787503,
+        0.0002629160007927567,
+        0.0002626249988679774,
+        0.0002631249953992665
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "reversed",
+      "algorithm": "merge_sort",
+      "input_sha256": "a6530ad01074b6b992fdaa63016fef3722c95e50baa61f1a3f3233f757271f2e",
+      "skipped": false,
+      "median_seconds": 0.16778879199409857,
+      "samples_seconds": [
+        0.16754770899569849,
+        0.16756337500555674,
+        0.16778879199409857,
+        0.16823883300094167,
+        0.16871454100328265
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "reversed",
+      "algorithm": "counting_sort",
+      "input_sha256": "a6530ad01074b6b992fdaa63016fef3722c95e50baa61f1a3f3233f757271f2e",
+      "skipped": false,
+      "median_seconds": 0.012090083000657614,
+      "samples_seconds": [
+        0.012054667000484187,
+        0.012054874998284504,
+        0.012255042005563155,
+        0.012090083000657614,
+        0.012149666996265296
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "reversed",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "a6530ad01074b6b992fdaa63016fef3722c95e50baa61f1a3f3233f757271f2e",
+      "skipped": false,
+      "median_seconds": 0.06980387499788776,
+      "samples_seconds": [
+        0.07105833300011,
+        0.07002349999675062,
+        0.06946412500110455,
+        0.06980387499788776,
+        0.06972304199734936
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "reversed",
+      "algorithm": "heap_sort",
+      "input_sha256": "a6530ad01074b6b992fdaa63016fef3722c95e50baa61f1a3f3233f757271f2e",
+      "skipped": false,
+      "median_seconds": 0.19344866699975682,
+      "samples_seconds": [
+        0.1931376669963356,
+        0.19344866699975682,
+        0.2005490420051501,
+        0.19336504099919694,
+        0.19495675000507617
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "reversed",
+      "algorithm": "quick_sort",
+      "input_sha256": "a6530ad01074b6b992fdaa63016fef3722c95e50baa61f1a3f3233f757271f2e",
+      "skipped": false,
+      "median_seconds": 0.17201795800065156,
+      "samples_seconds": [
+        0.1741688339971006,
+        0.17144016599922907,
+        0.17201795800065156,
+        0.1694793339993339,
+        0.17232566599705024
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "reversed",
+      "algorithm": "sorted",
+      "input_sha256": "a6530ad01074b6b992fdaa63016fef3722c95e50baa61f1a3f3233f757271f2e",
+      "skipped": false,
+      "median_seconds": 0.0002774579988908954,
+      "samples_seconds": [
+        0.00028174999897601083,
+        0.000189665996003896,
+        0.00027762499667005613,
+        0.0002774579988908954,
+        0.00027712500013876706
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "almost_sorted",
+      "algorithm": "merge_sort",
+      "input_sha256": "2ae8683f44e2989abe35cadfd9107eba44b1f9ca7c9780eeb7de0214f610a6d8",
+      "skipped": false,
+      "median_seconds": 0.20258108399866614,
+      "samples_seconds": [
+        0.20876720800151816,
+        0.20488445900264196,
+        0.20258108399866614,
+        0.20083220900414744,
+        0.2009944160017767
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "almost_sorted",
+      "algorithm": "counting_sort",
+      "input_sha256": "2ae8683f44e2989abe35cadfd9107eba44b1f9ca7c9780eeb7de0214f610a6d8",
+      "skipped": false,
+      "median_seconds": 0.012176291995274369,
+      "samples_seconds": [
+        0.012215542003104929,
+        0.012055500003043562,
+        0.012192833004519343,
+        0.012176291995274369,
+        0.012093332996300887
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "almost_sorted",
+      "algorithm": "radix_sort_lsd",
+      "input_sha256": "2ae8683f44e2989abe35cadfd9107eba44b1f9ca7c9780eeb7de0214f610a6d8",
+      "skipped": false,
+      "median_seconds": 0.05917304199829232,
+      "samples_seconds": [
+        0.05904383300367044,
+        0.05917304199829232,
+        0.058806499997444917,
+        0.059357707999879494,
+        0.06017637500190176
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "almost_sorted",
+      "algorithm": "heap_sort",
+      "input_sha256": "2ae8683f44e2989abe35cadfd9107eba44b1f9ca7c9780eeb7de0214f610a6d8",
+      "skipped": false,
+      "median_seconds": 0.21260283300216543,
+      "samples_seconds": [
+        0.21773562499583932,
+        0.21030366700142622,
+        0.21260283300216543,
+        0.24083245899964822,
+        0.21182141699682688
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "almost_sorted",
+      "algorithm": "quick_sort",
+      "input_sha256": "2ae8683f44e2989abe35cadfd9107eba44b1f9ca7c9780eeb7de0214f610a6d8",
+      "skipped": false,
+      "median_seconds": 0.1694931660022121,
+      "samples_seconds": [
+        0.17311241699644597,
+        0.1694931660022121,
+        0.16740395899978466,
+        0.16330512500280747,
+        0.17754579200118314
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    },
+    {
+      "n": 100000,
+      "distribution": "almost_sorted",
+      "algorithm": "sorted",
+      "input_sha256": "2ae8683f44e2989abe35cadfd9107eba44b1f9ca7c9780eeb7de0214f610a6d8",
+      "skipped": false,
+      "median_seconds": 0.0009396669993293472,
+      "samples_seconds": [
+        0.000988667001365684,
+        0.0009521249958197586,
+        0.0009396669993293472,
+        0.0009293330003856681,
+        0.0009262079984182492
+      ],
+      "power_source": "Now drawing from 'AC Power'"
+    }
+  ],
+  "slopes": {
+    "random_wide": {
+      "merge_sort": 1.103033558729904,
+      "radix_sort_lsd": 1.0151266992971462,
+      "heap_sort": 1.1339164751567457,
+      "quick_sort": 1.0984052864837066,
+      "sorted": 1.2524220848678593
+    },
+    "random_small": {
+      "merge_sort": 1.1004977388093409,
+      "counting_sort": 1.013399378302212,
+      "radix_sort_lsd": 0.9970480232236366,
+      "heap_sort": 1.125729333805832,
+      "quick_sort": 0.9916289181684025,
+      "sorted": 1.152742223700369
+    },
+    "sorted": {
+      "merge_sort": 1.0913731615980207,
+      "counting_sort": 1.0190240845974474,
+      "radix_sort_lsd": 1.1148270566661247,
+      "heap_sort": 1.1217977241806816,
+      "quick_sort": 1.1146342211270168,
+      "sorted": 1.055289904771586
+    },
+    "reversed": {
+      "merge_sort": 1.0949655147916202,
+      "counting_sort": 1.0206992154979009,
+      "radix_sort_lsd": 1.098437685584619,
+      "heap_sort": 1.1375257468456246,
+      "quick_sort": 1.112813806699334,
+      "sorted": 1.0594021027483354
+    },
+    "almost_sorted": {
+      "merge_sort": 1.1158048316900642,
+      "counting_sort": 1.0216144054242406,
+      "radix_sort_lsd": 1.1174071563740309,
+      "heap_sort": 1.1281451921497168,
+      "quick_sort": 1.1069332053772238,
+      "sorted": 1.096191123840239
+    }
+  },
+  "metadata": {
+    "variant": 9,
+    "seed": 39,
+    "measured_at_utc": "2026-11-05T19:29:47.341509+00:00",
+    "python": "3.10.7",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "repeats": 5,
+    "warmup": 1,
+    "power_before": "Now drawing from 'AC Power'",
+    "power_after": "Now drawing from 'AC Power'",
+    "source_sha256": "fa4d808d9af49fc0bd73e66f7a04deee4abcb05a2fb1016f20145ec75e67f07f"
+  }
+}

@@ -1,0 +1,188 @@
+self_check: OK
+
+n = 1000:
+  распределение random_wide:
+            merge_sort: t = 0.001408 c
+         counting_sort: пропуск (диапазон ключей)
+        radix_sort_lsd: t = 0.001025 c
+             heap_sort: t = 0.001142 c
+            quick_sort: t = 0.001068 c
+                sorted: t = 0.000026 c
+  распределение random_small:
+            merge_sort: t = 0.001394 c
+         counting_sort: t = 0.000077 c
+        radix_sort_lsd: t = 0.000351 c
+             heap_sort: t = 0.001123 c
+            quick_sort: t = 0.000515 c
+                sorted: t = 0.000024 c
+  распределение sorted:
+            merge_sort: t = 0.001062 c
+         counting_sort: t = 0.000110 c
+        radix_sort_lsd: t = 0.000343 c
+             heap_sort: t = 0.001187 c
+            quick_sort: t = 0.001025 c
+                sorted: t = 0.000002 c
+  распределение reversed:
+            merge_sort: t = 0.001083 c
+         counting_sort: t = 0.000109 c
+        radix_sort_lsd: t = 0.000451 c
+             heap_sort: t = 0.001025 c
+            quick_sort: t = 0.001015 c
+                sorted: t = 0.000002 c
+  распределение almost_sorted:
+            merge_sort: t = 0.001187 c
+         counting_sort: t = 0.000111 c
+        radix_sort_lsd: t = 0.000344 c
+             heap_sort: t = 0.001173 c
+            quick_sort: t = 0.001035 c
+                sorted: t = 0.000006 c
+
+n = 3000:
+  распределение random_wide:
+            merge_sort: t = 0.004856 c
+         counting_sort: пропуск (диапазон ключей)
+        radix_sort_lsd: t = 0.003151 c
+             heap_sort: t = 0.004006 c
+            quick_sort: t = 0.003809 c
+                sorted: t = 0.000080 c
+  распределение random_small:
+            merge_sort: t = 0.004761 c
+         counting_sort: t = 0.000219 c
+        radix_sort_lsd: t = 0.001045 c
+             heap_sort: t = 0.004001 c
+            quick_sort: t = 0.001436 c
+                sorted: t = 0.000082 c
+  распределение sorted:
+            merge_sort: t = 0.003588 c
+         counting_sort: t = 0.000345 c
+        radix_sort_lsd: t = 0.001368 c
+             heap_sort: t = 0.004227 c
+            quick_sort: t = 0.003496 c
+                sorted: t = 0.000007 c
+  распределение reversed:
+            merge_sort: t = 0.003690 c
+         counting_sort: t = 0.000345 c
+        radix_sort_lsd: t = 0.001352 c
+             heap_sort: t = 0.003745 c
+            quick_sort: t = 0.003570 c
+                sorted: t = 0.000006 c
+  распределение almost_sorted:
+            merge_sort: t = 0.004177 c
+         counting_sort: t = 0.000341 c
+        radix_sort_lsd: t = 0.001377 c
+             heap_sort: t = 0.004191 c
+            quick_sort: t = 0.003678 c
+                sorted: t = 0.000019 c
+
+n = 10000:
+  распределение random_wide:
+            merge_sort: t = 0.018303 c
+         counting_sort: пропуск (диапазон ключей)
+        radix_sort_lsd: t = 0.010412 c
+             heap_sort: t = 0.015924 c
+            quick_sort: t = 0.013937 c
+                sorted: t = 0.000447 c
+  распределение random_small:
+            merge_sort: t = 0.017969 c
+         counting_sort: t = 0.000721 c
+        radix_sort_lsd: t = 0.003493 c
+             heap_sort: t = 0.015643 c
+            quick_sort: t = 0.004964 c
+                sorted: t = 0.000341 c
+  распределение sorted:
+            merge_sort: t = 0.013452 c
+         counting_sort: t = 0.001175 c
+        radix_sort_lsd: t = 0.004694 c
+             heap_sort: t = 0.016449 c
+            quick_sort: t = 0.013688 c
+                sorted: t = 0.000018 c
+  распределение reversed:
+            merge_sort: t = 0.013930 c
+         counting_sort: t = 0.001161 c
+        radix_sort_lsd: t = 0.005709 c
+             heap_sort: t = 0.014889 c
+            quick_sort: t = 0.013633 c
+                sorted: t = 0.000028 c
+  распределение almost_sorted:
+            merge_sort: t = 0.016140 c
+         counting_sort: t = 0.001168 c
+        radix_sort_lsd: t = 0.004646 c
+             heap_sort: t = 0.016341 c
+            quick_sort: t = 0.013621 c
+                sorted: t = 0.000067 c
+
+n = 30000:
+  распределение random_wide:
+            merge_sort: t = 0.061283 c
+         counting_sort: пропуск (диапазон ключей)
+        radix_sort_lsd: t = 0.031705 c
+             heap_sort: t = 0.054920 c
+            quick_sort: t = 0.045399 c
+                sorted: t = 0.001860 c
+  распределение random_small:
+            merge_sort: t = 0.059943 c
+         counting_sort: t = 0.002187 c
+        radix_sort_lsd: t = 0.010406 c
+             heap_sort: t = 0.053244 c
+            quick_sort: t = 0.016013 c
+                sorted: t = 0.001269 c
+  распределение sorted:
+            merge_sort: t = 0.044189 c
+         counting_sort: t = 0.003560 c
+        radix_sort_lsd: t = 0.017408 c
+             heap_sort: t = 0.055792 c
+            quick_sort: t = 0.046158 c
+                sorted: t = 0.000058 c
+  распределение reversed:
+            merge_sort: t = 0.045921 c
+         counting_sort: t = 0.003571 c
+        radix_sort_lsd: t = 0.017439 c
+             heap_sort: t = 0.051330 c
+            quick_sort: t = 0.045553 c
+                sorted: t = 0.000061 c
+  распределение almost_sorted:
+            merge_sort: t = 0.054487 c
+         counting_sort: t = 0.003639 c
+        radix_sort_lsd: t = 0.018157 c
+             heap_sort: t = 0.055831 c
+            quick_sort: t = 0.047082 c
+                sorted: t = 0.000264 c
+
+n = 100000:
+  распределение random_wide:
+            merge_sort: t = 0.226864 c
+         counting_sort: пропуск (диапазон ключей)
+        radix_sort_lsd: t = 0.111433 c
+             heap_sort: t = 0.210929 c
+            quick_sort: t = 0.172396 c
+                sorted: t = 0.007229 c
+  распределение random_small:
+            merge_sort: t = 0.221588 c
+         counting_sort: t = 0.008257 c
+        radix_sort_lsd: t = 0.034559 c
+             heap_sort: t = 0.200839 c
+            quick_sort: t = 0.046508 c
+                sorted: t = 0.004643 c
+  распределение sorted:
+            merge_sort: t = 0.161908 c
+         counting_sort: t = 0.012108 c
+        radix_sort_lsd: t = 0.059156 c
+             heap_sort: t = 0.208380 c
+            quick_sort: t = 0.172524 c
+                sorted: t = 0.000263 c
+  распределение reversed:
+            merge_sort: t = 0.167789 c
+         counting_sort: t = 0.012090 c
+        radix_sort_lsd: t = 0.069804 c
+             heap_sort: t = 0.193449 c
+            quick_sort: t = 0.172018 c
+                sorted: t = 0.000277 c
+  распределение almost_sorted:
+            merge_sort: t = 0.202581 c
+         counting_sort: t = 0.012176 c
+        radix_sort_lsd: t = 0.059173 c
+             heap_sort: t = 0.212603 c
+            quick_sort: t = 0.169493 c
+                sorted: t = 0.000940 c
+
+Графики и результаты сохранены в /Users/kirill/Jupyter/02_projects/mtuci-algorithms-data-structures/lab04/reports
