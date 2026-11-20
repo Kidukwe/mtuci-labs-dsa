@@ -14,3 +14,5 @@
   * [README — отчёт, результаты и порядок разбора](lab03/README.md)
 * [Лабораторная работа 4: MergeSort, CountingSort, RadixSort и HeapSort](lab04/)
   * [README — отчёт, таблица свойств и графики](lab04/README.md)
+* [Лабораторная работа 5: Бинарное дерево поиска](lab05/)
+  * [Отчёт и графики](lab05/README.md)
